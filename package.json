@@ -12,7 +12,8 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "start:backend": "yarn workspace backend start",
-    "start:web": "yarn workspace web start"
+    "start:web": "yarn workspace web start",
+    "start:dashboard": "yarn workspace dashboard start"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
